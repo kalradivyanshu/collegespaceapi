@@ -1,8 +1,8 @@
 <?php
-$servername = "mysql9.000webhost.com";
-$dbname = "a4351752_div";
-$dbusername = "a4351752_admin";
-$password = "Linkinpark2014";
+$servername = "servername";
+$dbname = "databasename";
+$dbusername = "username";
+$password = "password";
 
 
         $conn = new mysqli($servername, $dbusername, $password, $dbname);
