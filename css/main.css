@@ -5,3 +5,25 @@
 .typeform{
 	display:none;
 }
+
+#submit {
+	display: none;
+}
+
+.firstelement {
+	margin-top: 30px;
+}
+
+.maindiv {
+	margin-top: 100px;
+}
+
+.headingdiv {
+	text-align: center;
+	margin-top:40px;
+}
+
+.btndiv {
+	margin-top: 30px;
+	text-align: center;
+}
