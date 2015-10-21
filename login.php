@@ -39,36 +39,52 @@
 	}
 ?>
 <html>
-<head>
-	<title>
-		Admin Login | CollegeSpace
-	</title>
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	<link href="css/main.css" rel="stylesheet">
-</head>
-<form method="POST" action="login.php">
-	<?php
-	if($error == 1)
-	{
-		?>
-		<span class="error">All Fields are required!</span><br>
-		<?php
-	}
-	else if($error == 2)
-	{
-		?>
-		<span class="error">Wrong Username/Password combination!</span><br>
-		<?php
-	}
-	else if($error == 3)
-	{
-		?>
-		<span class="error">You were either detected as not-human, or you forgot to prove you are not a robot, please try again!</span><br>
-		<?php
-	}
-	?>
-	<input type="text" name="username" placeholder="Username"><br>
-	<input type="password" name="password" placeholder="Password"><br><br>
-	<div class="g-recaptcha" data-sitekey="6Leu_ggTAAAAAHrHiaKqG197bzabAGuPpOnleIec"></div>
-	<input type="submit" value="Login">
-</form>
+	<head>
+		<title>
+			Admin Login | CollegeSpace
+		</title>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<link href="css/main.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body style="font-family: 'Open Sans', sans-serif; overflow-x:hidden;">
+		<div class="headingdiv"><h1>Login | Admin Panel</h1></div>
+		<div class="row maindiv">
+			<div class="col-md-6 col-md-offset-3">
+				<form method="POST" action="login.php" role="form">
+					<?php
+					if($error == 1)
+					{
+						?>
+						<span class="error">All Fields are required!</span><br>
+						<?php
+					}
+					else if($error == 2)
+					{
+						?>
+						<span class="error">Wrong Username/Password combination!</span><br>
+						<?php
+					}
+					else if($error == 3)
+					{
+						?>
+						<span class="error">You were either detected as not-human, or you forgot to prove you are not a robot, please try again!</span><br>
+						<?php
+					}
+					?>
+					<input type="text" name="username" placeholder="Username" class="form-control centerinput"><br>
+					<input type="password" name="password" placeholder="Password" class="form-control centerinput"><br><br>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="g-recaptcha" data-sitekey="6Leu_ggTAAAAAHrHiaKqG197bzabAGuPpOnleIec"></div>
+						</div>
+					</div>
+					<div class="btndiv">
+						<input type="submit" value="Login" class="btn btn-primary">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

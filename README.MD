@@ -12,6 +12,8 @@ Added Add-Post form.
 
 I also uploaded it to my server awesomeness.cf/collegespace/login.php
 
+Added BOOTSTRAP. Updated look.
+
 Username: admin
 
 Password: password 

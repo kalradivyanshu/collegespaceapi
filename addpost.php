@@ -19,7 +19,7 @@
 					<div class="col-md-6 col-md-offset-3">
 						<div class="form-group">
 							<form role="form">
-								<input type="text" name="title" placeholder="Title" class="form-control"><br/><br/>
+								<input type="text" name="title" placeholder="Title" class="form-control centerinput"><br/><br/>
 								<select name="type" id="typeselect" class="form-control"><br/><br/>
 									<option value="select">Select</option>
 									<option value="notice">Notice</option>
