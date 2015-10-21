@@ -5,7 +5,7 @@
 <html>
 <head>
 	<title>
-		Logged In as <?php echo $user_username; ?>
+		Dashboard | <?php echo $user_username; ?>
 	</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 	if($user_logged_in == 1)
 	{
 		?>
-		<div class="headingdiv"><h1>Index</h1></div>
+		<div class="headingdiv"><h1>Dashboard</h1></div>
 		<div class="row maindiv">
 			<div class="col-md-6 col-md-offset-3">
 				<table class="table table-hover">
