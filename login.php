@@ -57,19 +57,31 @@
 					if($error == 1)
 					{
 						?>
-						<span class="error">All Fields are required!</span><br>
+						<div class="alert alert-danger centerinput" role="alert">
+							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+							<span class="sr-only">Error:</span>
+								All fields are required.
+						</div>
 						<?php
 					}
 					else if($error == 2)
 					{
 						?>
-						<span class="error">Wrong Username/Password combination!</span><br>
+						<div class="alert alert-danger centerinput" role="alert">
+							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+							<span class="sr-only">Error:</span>
+								Wrong Username and Password combination.
+						</div>
 						<?php
 					}
 					else if($error == 3)
 					{
 						?>
-						<span class="error">You were either detected as not-human, or you forgot to prove you are not a robot, please try again!</span><br>
+						<div class="alert alert-danger centerinput" role="alert">
+							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+							<span class="sr-only">Error:</span>
+								You either failed the captcha test, or forgot to do it.
+						</div>
 						<?php
 					}
 					?>
