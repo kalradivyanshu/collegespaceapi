@@ -24,13 +24,13 @@
 						<tr class="linktr" data-link="addpost.php">
 							<td>Add Post</td>
 						</tr>
-						<tr  class="linktr" data-link="home.php">
+						<tr  class="linktr" data-link="edit.php">
 							<td>Edit Post</td>
 						</tr>
 						<tr class="linktr" data-link="jsonapi.php?key=f994d140ead66d45a20d8c611742df39">
 							<td>JSON API</td>
 						</tr>
-						<tr class="linktr" data-link="home.php">
+						<tr class="linktr" data-link="logout.php">
 							<td>Logout</td>
 						</tr>
 					</tbody>

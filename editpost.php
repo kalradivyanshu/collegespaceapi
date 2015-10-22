@@ -25,7 +25,7 @@
 				<div class="row maindiv">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="form-group">
-							<form role="form" method="POST" action="addpostphp.php">
+							<form role="form" method="POST" action="editpostphp.php">
 								<?php
 								if($error == "1")
 								{
@@ -41,7 +41,7 @@
 								{
 									?>
 									<div class="alert alert-success centerinput" role="alert">
-											<strong>Success!</strong> Post added!
+											<strong>Success!</strong> All changes saved.
 									</div>
 									<?php
 								}
@@ -50,6 +50,7 @@
 								?>
 								<input type="text" name="title" placeholder="Title" class="form-control centerinput" value="<?php echo $info["title"]; ?>"><br/><br/>
 								<input type="hidden" name="type" value="<?php echo $type;?>">
+								<input type="hidden" name="id" value="<?php echo $id;?>">
 								<?php
 								if($type == "notice")
 								{

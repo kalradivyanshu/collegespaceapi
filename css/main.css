@@ -34,4 +34,13 @@
 
 .linktr {
 	text-align: center;
+	cursor:pointer;
+}
+
+.nocenter {
+	text-align: left;
+}
+
+.hidden {
+	display: none;
 }
