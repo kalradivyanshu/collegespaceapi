@@ -14,6 +14,8 @@ I also uploaded it to my server awesomeness.cf/collegespace/login.php
 
 Added BOOTSTRAP. Updated look.
 
+Added JSON API.
+
 Username: admin
 
 Password: password 
