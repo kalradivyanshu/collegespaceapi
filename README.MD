@@ -16,6 +16,8 @@ Added BOOTSTRAP. Updated look.
 
 Added Edit Post Feature.
 
+Added Logout Feature.
+
 Added JSON API.
 
 Username: admin
